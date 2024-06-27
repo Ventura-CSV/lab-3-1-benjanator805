@@ -4,9 +4,13 @@ def main():
     ##################################################
     number = int(input('Enter your input: '))
 
-    """
-    Make your code here
-    """
+    if number < 50:
+        range = 1
+    else:
+        number >= 50
+        range = 2
+    if number >= 100:
+       range = 3
 
     print(f'Range is {range}')
     ########################################
